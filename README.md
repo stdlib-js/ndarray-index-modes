@@ -52,13 +52,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import modes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-index-modes@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-index-modes/tags). For example,
+
+```javascript
 import modes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-index-modes@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-index-modes@v0.1.0-esm/index.mjs';
+import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-index-modes@esm/index.mjs';
 ```
 
 #### modes()
@@ -103,7 +108,7 @@ The output `array` contains the following modes:
 <script type="module">
 
 import indexOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-index-of@esm/index.mjs';
-import modes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-index-modes@v0.1.0-esm/index.mjs';
+import modes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-index-modes@esm/index.mjs';
 
 var MODES = modes();
 var bool;
