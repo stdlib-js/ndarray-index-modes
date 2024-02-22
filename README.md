@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import modes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-index-modes@deno/mod.js';
+import modes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-index-modes@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-index-modes@deno/mod.js';
+import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-index-modes@v0.2.1-deno/mod.js';
 ```
 
 #### modes()
@@ -99,7 +99,7 @@ The output array contains the following modes:
 
 ```javascript
 import indexOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-index-of@deno/mod.js';
-import modes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-index-modes@deno/mod.js';
+import modes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-index-modes@v0.2.1-deno/mod.js';
 
 var MODES = modes();
 
