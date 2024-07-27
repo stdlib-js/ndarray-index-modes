@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-index-modes",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "List of ndarray index modes.",
   "license": "Apache-2.0",
   "author": {
@@ -38,13 +38,13 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.1",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
     "@stdlib/utils-library-manifest": "^0.2.1"
   },
   "devDependencies": {
-    "@stdlib/assert-has-own-property": "^0.2.1",
+    "@stdlib/assert-has-own-property": "^0.2.2",
     "@stdlib/assert-is-nonnegative-integer": "^0.2.1",
-    "@stdlib/assert-is-string-array": "^0.2.1",
+    "@stdlib/assert-is-string-array": "^0.2.2",
     "@stdlib/utils-index-of": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
